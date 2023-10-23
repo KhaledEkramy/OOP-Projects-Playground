@@ -1,44 +1,59 @@
 # Project Description
-Write a program represent the following class hierarchy
-1.1. Person class
-    a) which contain the following attributes:
-     Name
-     Address
-     Gender
-     DateOfBirth
-    b) And contain the following methods:
-     Constructor that take all attributes
-     getter & setter for each attribute
-     toString
-     clone
-     equals
-    1.2. Employee class which inherit Person class
-    a) which contain the following attributes:
-     role
-     department
-    b) And contain the following methods:
-     Constructor that take all attributes
-     getter & setter for each attribute
-     toString
-     clone
-     equals
-1.3. Student class which inherit Person class
-    a) which contain the following attributes:
-     student ID
-     classNo
-    b) And contain the following methods:
-     Constructor that take all attributes
-     getter & setter for each attribute
-     toString
-     clone equals
-1.4. TestPerson class that perform the following:
-    a) Create two objects from Employee class
-    b) Assign each object with different values
-    c) Compare two objects
-    d) Create Employee reference that clone the first object
-    e) Print all Employee objects created
-    f) Create two objects from Student class
-    g) Assign each object with different values
-    h) Compare two objects
-    i) Create Student reference that clone the first object
-    j) Print all Student ee objects created
+
+This program represents the following class hierarchy:
+
+## 1.1. Person class
+
+### Attributes:
+- Name
+- Address
+- Gender
+- Date of Birth
+
+### Methods:
+- Constructor that takes all attributes
+- Getter & setter for each attribute
+- `toString`
+- `clone`
+- `equals`
+
+## 1.2. Employee class (inherits from Person)
+
+### Additional Attributes:
+- Role
+- Department
+
+### Methods:
+- Constructor that takes all attributes
+- Getter & setter for each attribute
+- `toString`
+- `clone`
+- `equals`
+
+## 1.3. Student class (inherits from Person)
+
+### Additional Attributes:
+- Student ID
+- Class Number
+
+### Methods:
+- Constructor that takes all attributes
+- Getter & setter for each attribute
+- `toString`
+- `clone`
+- `equals`
+
+## 1.4. TestPerson class
+
+This class performs the following actions:
+
+a) Create two objects from the Employee class.
+b) Assign different values to each object.
+c) Compare the two objects.
+d) Create an Employee reference that clones the first object.
+e) Print all Employee objects created.
+f) Create two objects from the Student class.
+g) Assign different values to each object.
+h) Compare the two objects.
+i) Create a Student reference that clones the first object.
+j) Print all Student objects created.
