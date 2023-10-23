@@ -21,6 +21,6 @@ public class Main {
         }
         Student copy_of_first_student = first_student.clone() ;
         System.out.println(first_student.toString()) ;
-        System.out.println(first_student.toString()) ;
+        System.out.println(second_student.toString()) ;
     }
 }
